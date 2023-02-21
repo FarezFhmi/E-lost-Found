@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+/*Data*/
+  .home-section{
+    position: relative;
+    background: #d2d2d2;
+    min-height: 80vh;
+    top: 60px;
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+  }
+  
+  form {
+    margin-top: auto;
+    background-color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+    margin-bottom: auto;
+  }
+  
+  form h2 {
+    text-align: center;
+    color: #e65b00;
+    margin-bottom: 20px;
+  }
+
+  form .top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .date{
+    display: flex;
+  }
+  form .bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  form input[type=date]  {
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    width: 320px;
+    background: #f5f5f5;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    display: block;
+  }
+  form input[type=time]  {
+    border: 0;
+    margin: 10px 10px 10px 0;
+    padding: 20px;
+    outline: none;
+    width: 320px;
+    background: #f5f5f5;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    display: block;
+  }
+
+  form input, select {
+    border: 0;
+    margin: 10px 0px;
+    padding: 24px;
+    outline: none;
+    width: 618px;
+    background: #f5f5f5;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    display: block;
+    appearance: none;
+  }
+
+  form input, textarea {
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    width: 618px;
+    background: #f5f5f5;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    display: block;
+  }
+
+  form select::-ms-expand {
+    display: none;
+  }
+  form input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #e65b00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+  }
+  
+  form input[type=file]::file-selector-button:hover {
+    background: #d3773a;
+  }
+  
+  form button {
+    background: white;
+    color: #e65b00;
+    border: 1px solid #e65b00;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    transition: all .5s ease-in;
+  }
+  
+  form button:hover {
+    border: 1px solid #e65b00;
+    background: #e65b00;
+    color: white;
+  }
+  
+  .one-check {
+    padding-left: 15px;
+  }
+/*footer*/
+.footer-section {
+    width: 100%;
+    display: inline-flex;
+    color: white;
+    margin-top: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    background-color: rgb(93, 93, 94);
+}
+
+.footer-section h2 {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.footer-section h2::after {
+    content: '';
+    width: 4rem;
+    height: .2rem;
+    background: #e65b00;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+}
+
+.footer-section p {
+    transition: all .2s linear;
+    margin-bottom: .6em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-section p:hover {
+    transition: all .2s linear;
+    transform: translateX(4px);
+}
+
+.footer-section a:hover {
+    color: #f46d13;
+}
+
+.footer-item {
+    margin: 1rem;
+}
+
+.footer-item ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer-item li {
+    margin-right: 1rem;
+}
+
+.social ul li {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.social ul li:hover {
+    color: #e65b00;
+    transform: scale(1.1);
+    transition: all .2s linear;
+}
+
+@media screen and (max-width: 320px) {
+    .footer-section {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+}

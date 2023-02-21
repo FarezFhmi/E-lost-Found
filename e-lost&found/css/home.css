@@ -1,0 +1,160 @@
+/*show item*/
+
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container .banner{
+  background: linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+  border-radius: 5px;
+  margin: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px #0005;
+  overflow: hidden;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  width: 100%;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.input-box i,
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-box i {
+  left: 20px;
+  font-size: 30px;
+  color: #707070;
+}
+
+.input-box form {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 0 155px 0 65px;
+  background-color: transparent;
+}
+
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 0 25px 0 25px;
+  background-color: transparent;
+}
+.input-box .button {
+  right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: #e65b00;
+  cursor: pointer;
+}
+.input-box .button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+.text{
+    font-size: 2rem;
+    color: black;
+    margin: 20px 180px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.item-section {
+  margin: 0 0.5rem 0 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item-container {
+    background-color: #fff;
+    width: 25rem;
+    margin: 0.6rem;
+    padding: 1rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-item {
+    width: 200px;
+    display: flex;
+    margin: 25px;
+}
+
+.item-heading {
+    text-transform: capitalize;
+    color:black;
+    align-items: center;
+}
+
+.item-description {
+    margin: .5rem 0;
+    font-size: .9rem;
+    font-weight: 200;
+    color:black;
+}
+
+.item-cart-btn:hover {
+    color: #fff;
+    background-color: rgb(160, 110, 206);
+}
