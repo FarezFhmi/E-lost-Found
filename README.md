@@ -8,7 +8,7 @@ To setup this project:
 3. Start APACHE & MYSQL in Xampp
 4. [Run](http://localhost/e-lost&found/) in any browser after done all 3 step.
 
-For testing... 
+For testing the already user: 
 1. Admin Account : Username = Reez, Password = 12345@sh
 2. User Account : Username = Farez, Password = 12345@sh
 
