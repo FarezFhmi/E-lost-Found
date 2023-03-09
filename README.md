@@ -12,7 +12,8 @@ For testing...
 Admin Account : Username = Reez, Password = 12345@sh
 User Account : Username = Farez, Password = 12345@sh
 
-All password has been has after user register, so please remember password because it cannot be recover. To unencrypt password back it so difficult.
+All password has been has after user register, so please remember password because it cannot be recover. 
+To unencrypt password back it so difficult.
 
 I'm using hash password to make password encrypt.
 
