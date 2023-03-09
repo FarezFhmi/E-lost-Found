@@ -3,9 +3,9 @@
 Project For Subject Workshop Development
 
 To setup this project:
-1. Create database named "e-lost&found".
+1. Start APACHE & MYSQL in Xampp.
 2. Export the sql file to database e-lost&found.
-3. Start APACHE & MYSQL in Xampp
+3. Create database named "e-lost&found".
 4. [Run](http://localhost/e-lost&found/) in any browser after done all 3 step.
 
 For testing the already user: 
