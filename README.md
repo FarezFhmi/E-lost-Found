@@ -2,15 +2,15 @@
 # E-lost-Found with Admin & User Section
 Project For Subject Workshop Development
 
-first create database named "e-lost&found".
-then export the sql file to database e-lost&found.
-
-Run the php file using localhost xampp
+To setup this project:
+1. Create database named "e-lost&found".
+2. Export the sql file to database e-lost&found.
+3. Start APACHE & MYSQL in Xampp
+4. [Run](http://localhost/e-lost&found/) in any browser after done all 3 step.
 
 For testing... 
-
-Admin Account : Username = Reez, Password = 12345@sh
-User Account : Username = Farez, Password = 12345@sh
+1. Admin Account : Username = Reez, Password = 12345@sh
+2. User Account : Username = Farez, Password = 12345@sh
 
 All password has been has after user register, so please remember password because it cannot be recover. 
 To unencrypt password back it so difficult.
