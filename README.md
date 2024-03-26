@@ -2,6 +2,13 @@
 # E-lost-Found with Admin & User Section
 Project For Subject Workshop Development
 
+To live testing :
+https://reezcreate.epizy.com/
+
+For testing the already user: 
+1. Admin Account : Username = Reez, Password = 12345@sh
+2. User Account : Username = Farez, Password = 12345@sh
+
 To setup this project:
 1. Start APACHE & MYSQL in Xampp.
 2. Export the sql file to database e-lost&found.
@@ -16,9 +23,5 @@ All password has been has after user register, so please remember password becau
 To unencrypt password back it so difficult.
 
 I'm using hash password to make password encrypt.
-
-Please dont claim this project belong to yours!!
-
-Dont forget to credit to me as creator of this project.. 
 
 Thank you so much for supporting me !
